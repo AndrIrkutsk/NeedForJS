@@ -59,7 +59,6 @@ function startGame(event) {
 
   const target = event.target;
   if (target === start) return;
-  console.log(target);
 
   switch (target.id) {
     case 'easy':
